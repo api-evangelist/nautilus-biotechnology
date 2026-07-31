@@ -1,9 +1,27 @@
 aid: nautilus-biotechnology
 name: Nautilus Biotechnology
-description: 'Nautilus Biotechnology is a company surfaced as a portfolio company of a16z and added to
-  the API Evangelist network as a stub for enrichment. Sector: bio-healthcare. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Nautilus Biotechnology is a publicly traded (NASDAQ: NAUT) life-sciences company
+  developing a single-molecule protein analysis platform aimed at unlocking the proteome for
+  basic biology, medicine, and drug discovery. Its Voyager platform pairs a novel single-molecule
+  proteomics instrument with reagents and software to quantify and map proteoforms at scale.
+  The company partners with academic and pharmaceutical researchers on applications spanning
+  biomarker discovery and the drug-development process. Nautilus operates as a research-tools
+  and instrument company; it publishes a corporate site, blog, resource library, and investor
+  relations pages, but does not currently expose a public developer API, SDKs, or a developer
+  portal. Surfaced as an a16z portfolio company and enriched from public sources.'
 url: https://raw.githubusercontent.com/api-evangelist/nautilus-biotechnology/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.nautilus.bio/wp-content/uploads/2023/11/Screenshot-2023-11-09-at-10.19.50-AM.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Bio Healthcare
+- Proteomics
+- Life Sciences
+- Biotechnology
+- Single-Molecule Proteomics
+- Drug Discovery
+- Research Tools
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,20 @@ maintainers:
 common:
 - type: Website
   url: https://nautilus.bio
+- type: Blog
+  url: https://www.nautilus.bio/blog/
+- type: Support
+  url: https://www.nautilus.bio/contact/
+- type: PrivacyPolicy
+  url: https://www.nautilus.bio/privacy-policy/
+- type: TermsOfService
+  url: https://www.nautilus.bio/terms-of-use/
+- type: GitHubOrganization
+  url: https://github.com/nautilusbio
+- type: DomainSecurity
+  url: security/nautilus-biotechnology-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
