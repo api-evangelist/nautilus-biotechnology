@@ -10,6 +10,17 @@ description: 'Nautilus Biotechnology is a publicly traded (NASDAQ: NAUT) life-sc
   relations pages, but does not currently expose a public developer API, SDKs, or a developer
   portal. Surfaced as an a16z portfolio company and enriched from public sources.'
 url: https://raw.githubusercontent.com/api-evangelist/nautilus-biotechnology/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
