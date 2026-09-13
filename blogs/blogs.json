@@ -5,8 +5,15 @@
       "source": "https://nautilus.bio",
       "feed_url": "https://nautilus.bio/blog/feed/",
       "title": "",
-      "saved": 1,
+      "saved": 0,
       "method": "discovered"
+    },
+    {
+      "source": "https://nautilus.bio/blog/feed/",
+      "feed_url": "https://nautilus.bio/blog/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     },
     {
       "source": "https://www.nautilus.bio/sample-page/feed/",
@@ -16,6 +23,6 @@
       "method": "feed"
     }
   ],
-  "post_count": 1,
-  "fetched": "2026-09-06T19:17:18Z"
+  "post_count": 9,
+  "fetched": "2026-09-13T13:00:00Z"
 }
